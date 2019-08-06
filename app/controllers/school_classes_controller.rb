@@ -1,4 +1,4 @@
-class SchoolClassesController < ApplicationController
+class SchoolClassController < ApplicationController
 
   def new
     @school_class = SchoolClass.new

@@ -20,6 +20,7 @@ class StudentsController < ApplicationController
     def update
       set_student
       @student.update post_params(:first_name, :last_name)
+      redirect_to student_path
     end
 
     private
